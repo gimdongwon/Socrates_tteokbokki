@@ -1,0 +1,40 @@
+@charset "utf-8";
+*,
+*::before::,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1960px;
+}
+section {
+  width: 100%;
+}
+section img {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  max-height: 150px;
+  line-height: 80px;
+  display: flex;
+  font-size: 15%;
+}
+
+.menu {
+  width: 100%;
+  margin: 0px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
