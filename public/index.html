@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrates Teokbooki</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/animation.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slider.css" />
+
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.4.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.4.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-functions.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="menu">
+          <ul>
+            <li><a href="#trend_tteukbokki">요즘 떡볶이</a></li>
+            <li><a href="#reason">입소문의 이유</a></li>
+            <li><a href=""><img src="./asset/logo.png" alt="" srcset="" class="nav_img" style="animation: zio 1.5s ease infinite 1.5s;"></a></li>
+            <li><a href="#foundation_cost">창업비용</a></li>
+            <li><a href="#question">창업문의</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="main" id="main">
+          <div class="dotgrid noSelect">
+              <div class="snapshotDetail screenSnapshotDetail">
+                <img
+                  class="snapshotImage"
+                  src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/846fc24e-0def-4adc-9b59-5ba2ecf69e2e.png"
+                  crossorigin="anonymous"
+                />
+            </div>
+            <div class="snapshotDetail screenSnapshotDetail">
+              <img
+                class="snapshotImage"
+                src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/aef1281e-2026-4bd5-adf0-cc48fc0423a5.png"
+                crossorigin="anonymous"
+              />
+            </div>
+            <div class="slide_img">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./asset/slider_img/black_tteok.png" alt="slide_img1" srcset="">
+                    <div class="title_wrap">
+                      <p>
+                        <b>짜장</b> 소크라테스
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./asset/slider_img/rose.png" alt="slide_img2" srcset="">
+                    <div class="title_wrap">
+                      <p>
+                        <b>로제</b> 소크라테스
+                      </p>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./asset/slider_img/hotdog.png" alt="slide_img3" srcset="">
+                    <div class="title_wrap">
+                      <p>
+                        <b>핫도그</b> 소크라테스
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./asset/slider_img/bacon.png" alt="slide_img4" srcset="">
+                    <div class="title_wrap">
+                      <p>
+                        <b>베이컨</b> 소크라테스
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./asset/slider_img/socrates.png" alt="slide_img5" srcset="">
+                    <div class="title_wrap">
+                      <p>
+                        <b>오리지널</b> 소크라테스
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="arrow_wrap">
+                  <!-- Add Arrows -->
+                  <!-- <div class="swiper-button-next" ></div>
+                  <div class="swiper-button-prev" ></div> -->
+                </div>
+              </div>
+            
+            </div>
+      </section>
+      <section class="trend_tteukbokki" id="trend_tteukbokki">
+          <div>
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/94600106-23b4-4597-8ffe-0f6a4697c951.png" alt="요즘 떡볶이">
+          </div>
+      </section>
+      <section class="reason" id="reason">
+        <div class="youtube_wrap">
+          <div class="youtube_video_img">
+            <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/235787c5-f52d-4d9c-9f0e-fe66d39858b1.png" alt="">
+          </div>
+          <div class="youtube_video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e2o9lzyU1GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+        <div class="reason_img">
+          <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/5987fbd7-a973-40be-af8a-c861022be22d.png" alt="">
+        </div>
+        
+      </section>
+      <section class="foundation_cost" id="foundation_cost">
+          <div class="position_guarante">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/8f675cf3-5ac0-4df2-9d0d-55a9b111dbaf.png" alt="">
+          </div>
+          <div class="fix_img">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/9bb81f20-3379-4a83-82f9-639b0bc22e5a.png" alt="">
+          </div>
+          <div class="fix_img">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7ad8e7d8-acff-4272-8476-c56dce507bbc.png" alt="">
+              <img src="https: //cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7949435d-6f4b-4471-b1b5-78735b81d1f4.png" alt="">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/4aeade4e-f593-46f5-a818-1b8bc0f80a37.png" alt="">
+          </div>
+          <div class="consulting">
+            <p>
+              현재 <b>52명</b> 가맹 상담 진행중
+            </p>
+          </div>
+      </section>
+      <section class="question" name="question" id="question">
+          <div class="foundation_question">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWir7fb37QeSL5P_dU1gwsylkl0W2Ak3wTCBqfLJfjDgXD9w/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                  <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/bf48d9ae-ebf7-490b-843f-b14ab8b047c1.png" alt="google_form" class="google_form">
+              </a>
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/625a52fe-d6b2-452e-8e90-014f8197be5b.png" alt="footer">
+          </div>
+      </section>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../index.js"></script>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>

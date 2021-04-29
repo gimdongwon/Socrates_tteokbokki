@@ -1,0 +1,9 @@
+{
+  "name": "Socrates_tteokbokki",
+  "version": "1.0.0",
+  "description": "소크라테스 떡볶이 외주 프로젝트",
+  "main": "index.js",
+  "repository": "https://github.com/gimdongwon/Socrates_tteokbokki.git",
+  "author": "dongwon",
+  "license": "MIT"
+}
