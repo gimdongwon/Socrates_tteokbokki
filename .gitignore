@@ -1,3 +1,8 @@
+# user config
+.github
+.firebaserc
+.firebase
+
 # Logs
 logs
 *.log

@@ -13,9 +13,9 @@
 
 
     <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.4.2/firebase-app.js"></script>
+    <!-- <script defer src="/__/firebase/8.4.2/firebase-app.js"></script> -->
     <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.4.2/firebase-auth.js"></script>
+    <!-- <script defer src="/__/firebase/8.4.2/firebase-auth.js"></script>
     <script defer src="/__/firebase/8.4.2/firebase-database.js"></script>
     <script defer src="/__/firebase/8.4.2/firebase-firestore.js"></script>
     <script defer src="/__/firebase/8.4.2/firebase-functions.js"></script>
@@ -23,12 +23,12 @@
     <script defer src="/__/firebase/8.4.2/firebase-storage.js"></script>
     <script defer src="/__/firebase/8.4.2/firebase-analytics.js"></script>
     <script defer src="/__/firebase/8.4.2/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.4.2/firebase-performance.js"></script>
+    <script defer src="/__/firebase/8.4.2/firebase-performance.js"></script> -->
     <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
 
   </head>
   <body>
@@ -46,7 +46,22 @@
       </header>
       <section class="main" id="main">
           <div class="dotgrid noSelect">
-              <div class="snapshotDetail screenSnapshotDetail">
+            <!-- <div class="title_test_wrap">
+              <div class="title_test">
+                <p class="sub">
+                  입소문만으로
+                  <br/>
+                  브랜드 탄생
+                  <br/>
+                  1년만에
+                </p> 
+                <img class="store_100 animation" src="./asset/100.png" alt="" srcset="">
+                <p class="sub">
+                  돌파!
+                </p> 
+              </div>
+            </div> -->
+            <div class="snapshotDetail screenSnapshotDetail">
                 <img
                   class="snapshotImage"
                   src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/846fc24e-0def-4adc-9b59-5ba2ecf69e2e.png"
@@ -119,6 +134,24 @@
           <div>
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/94600106-23b4-4597-8ffe-0f6a4697c951.png" alt="요즘 떡볶이">
           </div>
+          <div class="naver_search_wrap">
+            <div class="naver_search">
+              <img src="./asset/naver_search.png" alt="">
+            </div>
+            <div class="naver_search_text_wrap">
+              <p class="naver_search_text">
+                실시간
+                <br/>
+                급상승
+                <br/>
+                검색어
+                <br/>
+              </p>
+              <div class="naver_search_text_effect animation">
+                1위
+              </div>
+            </div>
+          </div>
       </section>
       <section class="reason" id="reason">
         <div class="youtube_wrap">
@@ -136,20 +169,33 @@
       </section>
       <section class="foundation_cost" id="foundation_cost">
           <div class="position_guarante">
-              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/8f675cf3-5ac0-4df2-9d0d-55a9b111dbaf.png" alt="">
+            <div class="gurante">
+              <p class="gurante_title">구 별로 최대 권역 보장</p>
+              <div class="maps">
+                <img src="./asset/map1.png" alt="">
+                <img src="./asset/invalid-name.png" alt="" srcset="">
+                <div class="area animation_2"></div>
+              </div>
+            </div>
+            <div class="consulting">
+                <p>
+                  현재 <b class="animation">52명</b> 가맹 상담 진행중
+                </p>
+            </div>
+            <div class="gurante scroll-fade">
+              <h1>자리를 먼저 선점하셔야<br/>권역을 보장 받을 수 있습니다.</h1>
+              <div class="maps">
+                <img src="./asset/57.png" alt="" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+              </div>
+            </div>
           </div>
           <div class="fix_img">
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/9bb81f20-3379-4a83-82f9-639b0bc22e5a.png" alt="">
           </div>
           <div class="fix_img">
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7ad8e7d8-acff-4272-8476-c56dce507bbc.png" alt="">
-              <img src="https: //cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7949435d-6f4b-4471-b1b5-78735b81d1f4.png" alt="">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7949435d-6f4b-4471-b1b5-78735b81d1f4.png" alt="">
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/4aeade4e-f593-46f5-a818-1b8bc0f80a37.png" alt="">
-          </div>
-          <div class="consulting">
-            <p>
-              현재 <b>52명</b> 가맹 상담 진행중
-            </p>
           </div>
       </section>
       <section class="question" name="question" id="question">
@@ -162,7 +208,7 @@
       </section>
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="../index.js"></script>
+    <!-- <script src="../index.js"></script> -->
     <script src="./js/slider.js"></script>
   </body>
 </html>
