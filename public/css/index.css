@@ -174,16 +174,23 @@ li {
   text-align: end;
   font-family: BlackHanSans;
   font-weight: 900;
-  color: #000;
-  font-size: 300%;
-  float: right;
+  color: #fff;
+  font-size: 8vw;
+  position: relative;
 }
 
 .title_test {
   width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  right: 10%;
 }
 .store_100 {
   width: 33%;
+}
+.sub {
+  margin: 0;
 }
 
 .naver_search_wrap {
@@ -223,6 +230,20 @@ li {
   -moz-animation-delay: 3s;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
+}
+.maps_wrap {
+  position: relative;
+}
+
+.redball {
+  width: 10%;
+  position: absolute;
+  left: 35%;
+}
+.blueball {
+  width: 10%;
+  position: absolute;
+  left: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -285,12 +306,12 @@ li {
 }
 @keyframes map {
   0% {
-    background-image: url("../asset/invalid-name.png");
+    background-image: url("../asset/map-location.png");
   }
   50% {
-    background-image: url("../asset/invalid-name@2x.png");
+    background-image: url("../asset/map.png");
   }
   100% {
-    background-image: url("../asset/invalid-name.png");
+    background-image: url("../map-location.png");
   }
 }
