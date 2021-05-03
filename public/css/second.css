@@ -1,11 +1,30 @@
 .asset_wrap {
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding: 15%;
 }
 
 .asset {
   width: 80%;
+}
+
+.gurante_title_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.gurante_title_wrap_text {
+  width: 70%;
+}
+
+ul > li:first-child {
+  margin-left: 16%;
+}
+
+ul > li:last-child {
+  margin-right: 16%;
 }
 
 @keyframes fadein {
