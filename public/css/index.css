@@ -235,6 +235,9 @@ li {
   left: 30%;
   margin-top: 30%;
 }
+.up_img {
+  padding-top: 7%;
+}
 
 @media screen and (max-width: 800px) {
   .container {
@@ -246,19 +249,28 @@ li {
   .consulting {
     font-size: 200%;
   }
-  /* .consulting_text {
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    font-size: 100%;
-  } */
-  /* .title_test {
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    top: 17%;
-    right: 18%;
-  } */
+}
+
+@media screen and (min-width: 1080px) {
+  .google_form {
+    position: fixed;
+    width: 1080px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 10%;
+    z-index: 4;
+  }
+  .menu {
+    position: fixed;
+    width: 1080px;
+    z-index: 3;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
 }
 /* @media screen and (max-width: 1600px) {
   .title_test {
