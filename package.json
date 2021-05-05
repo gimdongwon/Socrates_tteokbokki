@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/gimdongwon/Socrates_tteokbokki.git",
   "author": "dongwon",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }

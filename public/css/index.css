@@ -142,12 +142,12 @@ li {
   width: 100%;
   left: 0;
   bottom: 0;
-  height: 10%;
+  /* height: 10%; */
   z-index: 4;
 }
 
 .question {
-  margin-bottom: 10vh;
+  margin-bottom: 10%;
 }
 
 .title_test_wrap {
