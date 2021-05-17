@@ -180,7 +180,7 @@
           </div>
       </div>
         <div class="reason_img">
-          <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/5987fbd7-a973-40be-af8a-c861022be22d.png" alt="">
+          <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/e90e3794-dcd5-4592-91ad-8d32495218ad.png" alt="">
         </div>
         
       </section>
@@ -220,16 +220,16 @@
               
               <div class="maps_wrap">
                 <div class="balls_wrap">
-                  <div data-aos="fade-up" data-aos-delay="50">
+                  <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <img class="redball" src="./asset/red-circle.png" alt="" srcset="">
                   </div>
-                  <div data-aos="fade-up" data-aos-delay="100">
+                  <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                     <img class="blueball" src="./asset/blue-circle.png" alt="" srcset="">
                   </div>
-                  <div data-aos="fade-up" data-aos-delay="150">
+                  <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                     <img class="blueball2" src="./asset/blue-circle2.png" alt="" srcset="">
                   </div>
-                  <div data-aos="fade-up" data-aos-delay="200">
+                  <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <img class="blueball3" src="./asset/blue-circle3.png" alt="" srcset="">
                   </div>
                 </div>
@@ -245,7 +245,7 @@
           <div class="fix_img">
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7ad8e7d8-acff-4272-8476-c56dce507bbc.png" alt="">
               <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/7949435d-6f4b-4471-b1b5-78735b81d1f4.png" alt="">
-              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/34767a1e-e7ae-46f5-9e07-0993d76e5a52.png" id="cost" alt="">
+              <img src="https://cdn.zeplin.io/607538d6773de33b7e9d5f08/screens/df8c6c46-5d2a-450b-85d9-eabcc435d448.png" id="cost" alt="">
           </div>
       </section>
       <section class="question" name="question" id="question">
@@ -265,7 +265,17 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../index.js"></script>
+    <script>
+      var width = window.innerWidth;
+      // console.log(width);
+      $(window)
+        .resize(() => {
+          if (width > 800) {
+            $("#banner").attr("src", "./asset/banner2.png");
+          }
+        })
+        .resize();
+    </script>
     <script src="./js/slider.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

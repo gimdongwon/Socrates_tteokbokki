@@ -3,7 +3,7 @@ console.log("HI");
 
 // $(window).resize(function () {
 var width = window.innerWidth;
-console.log(width);
+// console.log(width);
 $(window)
   .resize(() => {
     if (width > 800) {
